@@ -1,0 +1,13 @@
+Functional Requirements
+
+1.	Media Upload and Preprocessing
+ The system should allow users to upload images and videos for deepfake detection. It should preprocess the uploaded media files (resizing, normalization, etc.) before passing them to the detection pipeline. 
+
+2.	Deepfake Detection and Analysis 
+The system should detect deepfakes using the trained model and provide a confidence score indicating the likelihood of manipulation. This process should be efficient, supporting real-time analysis. 
+
+3.	Explainable AI (XAI) Visualization 
+The system should generate visual explanations for its predictions, highlighting manipulated areas in media and providing insights to enhance transparency and trustworthiness. 
+
+4.	User Management and Access Control 
+The system should have a user management feature that allows administrators to manage user roles and permissions, ensuring that only authorized users can access sensitive detection data and system configurations.
